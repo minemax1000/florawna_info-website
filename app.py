@@ -15,6 +15,10 @@ def guide():
 def map():
     return render_template("map.html")
 
+@app.route("/story")
+def map():
+    return render_template("Exported Project.html")
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
