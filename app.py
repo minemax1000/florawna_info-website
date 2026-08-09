@@ -11,10 +11,6 @@ def home():
 def guide():
     return render_template("guide.html")
 
-@app.route("/map")
-def map():
-    return render_template("map.html")
-
 @app.route("/story")
 def map():
     return render_template("Exported Project.html")
